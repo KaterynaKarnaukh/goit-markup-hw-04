@@ -115,6 +115,14 @@ font-weight: 400;
 
 /*-------главный блок перая секция------*/
   .main-section {background-color: #2e2f42;
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+ rgba(46, 47, 66, 0.7)),
+  url(../images/people-office.jpg);
+ min-width: 1440px;
+ background-repeat: no-repeat;
+ background-position: center;
+  background-size: cover;
+ margin: 0 auto;
 padding: 188px 0}
 
    .main-title {max-width: 496px;
@@ -166,6 +174,17 @@ min-width: 169px}
 
       .main-list { width: calc((100% - 72px) / 4);}
 
+      .icon-strategy {margin-bottom: 8px;
+        width: 264px;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .icon {box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);}
+
     .main-feature-subtitle 
     {font-weight: 500;
       font-size: 20px;
@@ -202,6 +221,8 @@ gap: 24px;}
 .main-team-list {background-color: #FFFFFF;
         border-radius: 0 0 4px 4px;
         width: calc((100% - 3 * 24px) / 4);}
+
+        .card {box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); }
       
       .main-team-subtitle {font-weight: 500;
         font-size: 20px;
@@ -216,7 +237,28 @@ gap: 24px;}
           line-height: 150%;
           letter-spacing: 0.02em;
           text-align: center;
-          color: #434455;}
+          color: #434455;
+        margin-bottom: 8px}
+
+    .icon-list {display: flex;
+    gap: 24px;
+  justify-content: center;
+    align-items: center;
+  padding: 0;
+list-style: none;}
+
+    .social-icon {width: 40px;
+      height: 40px; 
+      background-color: #4d5ae5;
+      border-radius: 50%;
+     text-align: center;
+     display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+
+      .icons-social {fill: #fff;}
+
 
         .taste-img {}
       /*-------четвертая секция------*/
