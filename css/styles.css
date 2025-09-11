@@ -71,7 +71,7 @@ align-items: center;}
   color: #2e2f42;
 }
 
-.main-nav .link {display: block;
+.link {display: block;
   padding-top: 24px;
 padding-bottom: 24px;
 font-weight: 500;
@@ -140,7 +140,7 @@ font-weight: 400;
  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
  rgba(46, 47, 66, 0.7)),
   url(../images/people-office.jpg);
- min-width: 1440px;
+  max-width: 1440px;
  background-repeat: no-repeat;
  background-position: center;
   background-size: cover;
@@ -201,12 +201,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
         width: 264px;
         height: 112px;
         background-color: #f4f4fd;
-        border-radius: 5%;
+        border-radius: 4%;
+        border: 1px solid #8e8f99;
         display: flex;
         justify-content: center;
         align-items: center;
       }
-      .icon {box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);}
+      /*.icon {box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);}*/
 
     .main-feature-subtitle 
     {font-weight: 500;
@@ -390,9 +391,8 @@ margin-bottom: 16px;}
       display: flex;
       justify-content: center;
       align-items: center;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     }
 
     .footer-social-icon:focus,
     .footer-social-icon:hover {background-color: #31d0aa;}
-
-    .color {transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)}
