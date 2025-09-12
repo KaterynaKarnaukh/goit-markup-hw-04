@@ -324,12 +324,14 @@ list-style: none;}
         0px 2px 1px rgba(46, 47, 66, 0.08);
     }
 
-        .main-portfolio-list:hover .main-portfolio-lead {
+        .main-portfolio-lead:hover {
           transform: translateY(0%);}
 
   .applications {padding: 32px 16px;
      border: 1px solid #e7e9fc;
-  border-top: none;} 
+  border-top: none;
+position: relative;
+overflow: hidden;} 
 
   .main-portfolio-subtitle {font-weight: 500;
             font-size: 20px;
